@@ -93,7 +93,16 @@ Coming soon! See the [Maven](#running-from-maven) and [executable jar](#as-an-ex
 Linux
 -----
 
-Coming eventually! See the [Maven](#running-from-maven) and [executable jar](#as-an-executable-jar) sections for now.
+1. Download the .jar from [jenkins](http://jenkins.imagej.net/view/LOCI/job/GitHubBackup/) to the directory of your choice
+2. Download the github-backup.sh script from [jenkins](http://jenkins.imagej.net/view/LOCI/job/GitHubBackup/).
+3. Run ```github-backup.sh /full/path/to/github-backup.jar```
+4. (Optional) Add the ```github-backup.sh``` script to a script location on your PATH (e.g. /usr/bin).
+
+The ```github-backup.sh``` script overwrites itself the first time it's run with a script that will execute the given path as a jar. All arguments are automatically piped to the jar, so you use the script just like you would the [jar itself](#as-an-executable-jar).
+
+If you use a fully qualified path the first time you run ```github-backup.sh``` then the script can be anywhere on your computer and it will always find the github-backup.jar.
+
+If you add ```github-backup.sh``` to your path, you can run the backup script from anywhere on your computer.
 
 
 Running from Maven
