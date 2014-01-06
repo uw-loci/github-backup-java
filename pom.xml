@@ -85,10 +85,8 @@
           <licenseName>bsd</licenseName>
           <licenseResolver>file://${project.rootdir}/license</licenseResolver>
           <projectName>Maven plugin for backing up github state.</projectName>
-          <organizationName>Open Microscopy Environment:
-  - Board of Regents of the University of Wisconsin-Madison
-  - Glencoe Software, Inc.
-  - University of Dundee</organizationName>
+          <organizationName> Board of Regents of the University of
+          Wisconsin-Madison </organizationName>
           <addJavaLicenseAfterPackage>false</addJavaLicenseAfterPackage>
           <canUpdateDescription>true</canUpdateDescription>
           <canUpdateCopyright>true</canUpdateCopyright>
