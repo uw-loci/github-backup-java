@@ -1,7 +1,7 @@
 GitHub Backup Tool
 ==================
 
-This is a Java-based conversion of joeyh's github-backup (github.com/joeyh/github-backup).
+This tool was inspired by joeyh's [github-backup](github.com/joeyh/github-backup). When attempting to use joeyh's tool, it became apparent that unauthenticated GitHub API access was being used, which is [rate limited](http://developer.github.com/v3/#rate-limiting) to 60 accesses per hour, which is insufficient for backing up reasonably sized repositories. This was purely a limitation of the Haskell-based GitHub API being used. Thus this project originated as a Java-based equivalent using a [github-api](https://github.com/kohsuke/github-api) that easily allows authenticatation (which provides 5000 API accesses per hour).
 
 You can use this tool to backup GitHub-specific information that wouldn't
 normally be part of a git repository. For example, issues, milestones, commit
