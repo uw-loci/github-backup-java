@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
@@ -17,6 +18,28 @@
 	<description>Maven 2.0 plugin for backing up a github repository.</description>
 	<url>https://github.com/hinerm/github-backup-maven-plugin</url>
 	<inceptionYear>2013</inceptionYear>
+
+	<developers>
+		<developer>
+			<id>hinerm</id>
+			<name>Mark Hiner</name>
+			<email>hinerm@gmail.com</email>
+			<url>http://loci.wisc.edu/people/mark-hiner</url>
+			<organization>UW-Madison LOCI</organization>
+			<organizationUrl>http://loci.wisc.edu/</organizationUrl>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>-6</timezone>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git:git://github.com/loci/github-backup-loci</connection>
+		<developerConnection>scm:git:git@github.com:loci/github-backup-loci</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/loci/github-backup-loci</url>
+	</scm>
 
 	<dependencies>
 		<dependency>
@@ -59,7 +82,7 @@
 	</dependencies>
 
 	<build>
-	<finalName>github-backup</finalName>
+		<finalName>github-backup</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
@@ -121,27 +144,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
-	<developers>
-		<developer>
-			<id>hinerm</id>
-			<name>Mark Hiner</name>
-			<email>hinerm@gmail.com</email>
-			<url>http://loci.wisc.edu/people/mark-hiner</url>
-			<organization>UW-Madison LOCI</organization>
-			<organizationUrl>http://loci.wisc.edu/</organizationUrl>
-			<roles>
-				<role>developer</role>
-			</roles>
-			<timezone>-6</timezone>
-		</developer>
-	</developers>
-
-	<scm>
-		<connection>scm:git:git://github.com/loci/github-backup-loci</connection>
-		<developerConnection>scm:git:git@github.com:loci/github-backup-loci</developerConnection>
-		<tag>HEAD</tag>
-		<url>https://github.com/loci/github-backup-loci</url>
-	</scm>
 
 </project>
