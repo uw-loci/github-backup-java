@@ -1,9 +1,9 @@
 /*
  * #%L
- * Maven plugin for backing up github state.
+ * Maven plugin for backing up a GitHub repository.
  * %%
  * Copyright (C) 2013 - 2014 Board of Regents of the University of
- *           Wisconsin-Madison
+ * Wisconsin-Madison
  * %%
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:
@@ -25,10 +25,6 @@
  * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
- * 
- * The views and conclusions contained in the software and documentation are
- * those of the authors and should not be interpreted as representing official
- * policies, either expressed or implied, of any organization.
  * #L%
  */
 
