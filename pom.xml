@@ -155,11 +155,10 @@
   </developers>
 
   <scm>
-    <connection>scm:git:git://github.com/hinerm/github-backup-maven-plugin.git</connection>
-    <developerConnection>scm:git:git@github.com:hinerm/github-backup-maven-plugin.git</developerConnection>
+    <connection>scm:git:git://github.com/loci/github-backup-loci</connection>
+    <developerConnection>scm:git:git@github.com:loci/github-backup-loci</developerConnection>
     <tag>HEAD</tag>
-    <url>https://github.com/hinerm/github-backup-maven-plugin</url>
+    <url>https://github.com/loci/github-backup-loci</url>
   </scm>
-
 
 </project>
