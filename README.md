@@ -75,7 +75,7 @@ OSX
 
 Users:
 
-1. Download the .app from [jenkins](http://jenkins.imagej.net/view/LOCI/job/GitHubBackup/lastSuccessfulBuild/artifact/target/GitHubBackup.tar.gz)
+1. Download the .app from [jenkins](http://jenkins.imagej.net/job/github-backup-osx/lastSuccessfulBuild/artifact/target/GitHubBackup.tar.gz)
 2. Extract GitHubBackup.app from the downloaded .tar.gz
 3. (optional) Drag the downloaded .app to your Applications folder
 4. Run GitHubBackup.app
@@ -94,8 +94,8 @@ Coming soon! See the [Maven](#running-from-maven) and [executable jar](#as-an-ex
 Linux
 -----
 
-1. Download the .jar from [jenkins](http://jenkins.imagej.net/view/LOCI/job/GitHubBackup/lastSuccessfulBuild/artifact/target/github-backup-jar-with-dependencies.jar) to the directory of your choice
-2. Download the github-backup.sh script from [jenkins](http://jenkins.imagej.net/view/LOCI/job/GitHubBackup/lastSuccessfulBuild/artifact/github-backup.sh).
+1. Download the .jar from [jenkins](http://jenkins.imagej.net/job/github-backup-java/lastSuccessfulBuild/artifact/target/github-backup-jar-with-dependencies.jar) to the directory of your choice
+2. Download the github-backup.sh script from [jenkins](http://jenkins.imagej.net/job/github-backup-java/lastSuccessfulBuild/artifact/github-backup.sh).
 3. Run ```github-backup.sh /full/path/to/github-backup.jar```
 4. (Optional) Add the ```github-backup.sh``` script to a script location on your PATH (e.g. /usr/bin).
 
@@ -167,7 +167,7 @@ Note that if you want to use authentication in this case, and will be committing
 As an Executable Jar
 ====================
 
-The GitHubBackup project also creates an executable jar. To get the executable jar you can download the latest stable version from [jenkins](http://jenkins.imagej.net/view/LOCI/job/GitHubBackup/lastSuccessfulBuild/artifact/target/github-backup-jar-with-dependencies.jar).
+The GitHubBackup project also creates an executable jar. To get the executable jar you can download the latest stable version from [jenkins](http://jenkins.imagej.net/job/github-backup-java/lastSuccessfulBuild/artifact/target/github-backup-jar-with-dependencies.jar).
 
 If you want to build from source instead:
 
