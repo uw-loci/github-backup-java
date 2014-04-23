@@ -15,7 +15,7 @@
 	<packaging>maven-plugin</packaging>
 
 	<name>GitHub Backup Maven Plugin</name>
-	<description>Maven 2.0 plugin for backing up a github repository.</description>
+	<description>Maven plugin for backing up a GitHub repository.</description>
 	<url>https://github.com/hinerm/github-backup-maven-plugin</url>
 	<inceptionYear>2013</inceptionYear>
 
@@ -89,12 +89,8 @@
 				<artifactId>license-maven-plugin</artifactId>
 				<configuration>
 					<licenseName>bsd_2</licenseName>
-					<projectName>Maven plugin for backing up github state.</projectName>
-					<organizationName> Board of Regents of the University of
-					Wisconsin-Madison </organizationName>
-					<addJavaLicenseAfterPackage>false</addJavaLicenseAfterPackage>
-					<canUpdateDescription>true</canUpdateDescription>
-					<canUpdateCopyright>true</canUpdateCopyright>
+					<organizationName>Board of Regents of the University of
+Wisconsin-Madison</organizationName>
 				</configuration>
 			</plugin>
 			<plugin>
