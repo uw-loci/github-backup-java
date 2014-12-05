@@ -82,7 +82,7 @@ Users:
 
 Developers:
 
-1. Check out the source with ```git clone git@github.com:hinerm/github-backup-java.git```
+1. Check out the source with ```git clone git@github.com:uw-loci/github-backup-java```
 2. Build the jar with ```mvn package``` from the github-backup-java directory
 3. Run ```ant bundle-github-backup``` from the github-backup-java directory to create a target/GitHubBackup.app
 
@@ -116,7 +116,7 @@ From the command line
 
 The simplest way to use the GitHubBackupMojo is from the command line. To install the mojo:
 
-1. Run ```git clone git@github.com:hinerm/github-backup-java.git```
+1. Run ```git clone git@github.com:uw-loci/github-backup-java```
 2. Run ```mvn install``` from the github-backup-java directory.
 
 That's it! In any directory with a pom.xml you can now run either of these commands:
@@ -171,7 +171,7 @@ The GitHubBackup project also creates an executable jar. To get the executable j
 
 If you want to build from source instead:
 
-1. Run ```git clone git@github.com:hinerm/github-backup-java.git```
+1. Run ```git clone git@github.com:uw-loci/github-backup-java```
 2. Run ```mvn package``` from the github-backup-java directory.
 
 The executable jar will be built to "/target/github-backup-jar-with-dependencies.jar". Executable jars can be double-clicked to open. To pass arguments you'll have to run it from the command line:
@@ -185,7 +185,7 @@ Run with the ```-h``` flag to see the list of arguments.
 Bugs, Requests, Comments
 ========================
 
-Please send any bugs or feedback to [hinerm@gmail.com](mailto:hinerm@gmail.com). Thank you for using GitHub Backup!
+Please send any bugs or feedback to the [LOCI Software mailing list](http://loci.wisc.edu/mailman/listinfo/loci-software). Thank you for using GitHub Backup!
 
 Future plans
 ============
