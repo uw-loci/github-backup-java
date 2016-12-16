@@ -4,12 +4,13 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>loci</groupId>
-		<artifactId>pom-loci</artifactId>
-		<version>2.0.0</version>
+		<groupId>org.scijava</groupId>
+		<artifactId>pom-scijava</artifactId>
+		<version>12.0.0</version>
 		<relativePath />
 	</parent>
 
+	<groupId>loci</groupId>
 	<artifactId>github-backup</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
 	<packaging>maven-plugin</packaging>
@@ -18,6 +19,17 @@
 	<description>Maven plugin for backing up a GitHub repository.</description>
 	<url>https://github.com/hinerm/github-backup-maven-plugin</url>
 	<inceptionYear>2013</inceptionYear>
+	<organization>
+		<name>UW-Madison LOCI</name>
+		<url>http://loci.wisc.edu/</url>
+	</organization>
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
 
 	<developers>
 		<developer>
@@ -42,12 +54,38 @@
 		</contributor>
 	</contributors>
 
+	<mailingLists>
+		<mailingList>
+			<name>LOCI Software</name>
+			<subscribe>http://loci.wisc.edu/mailman/listinfo/loci-software</subscribe>
+			<unsubscribe>http://loci.wisc.edu/mailman/listinfo/loci-software</unsubscribe>
+			<post>loci-software@loci.wisc.edu</post>
+			<archive>http://loci.wisc.edu/pipermail/loci-software/</archive>
+		</mailingList>
+	</mailingLists>
+
 	<scm>
 		<connection>scm:git:git://github.com/loci/github-backup-loci</connection>
 		<developerConnection>scm:git:git@github.com:loci/github-backup-loci</developerConnection>
 		<tag>HEAD</tag>
 		<url>https://github.com/loci/github-backup-loci</url>
 	</scm>
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/uw-loci/github-backup-loci/issues</url>
+	</issueManagement>
+	<ciManagement>
+		<system>Jenkins</system>
+		<url>http://jenkins.imagej.net/job/github-backup-java/</url>
+	</ciManagement>
+
+	<properties>
+		<main-class>loci.backup.github.GitHubBackup</main-class>
+		<package-name>loci.backup.github</package-name>
+		<license.licenseName>apache_v2</license.licenseName>
+		<license.copyrightOwners>Board of Regents of the University of
+Wisconsin-Madison.</license.copyrightOwners>
+	</properties>
 
 	<repositories>
 		<repository>
@@ -100,15 +138,6 @@
 		<finalName>github-backup</finalName>
 		<plugins>
 			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>license-maven-plugin</artifactId>
-				<configuration>
-					<licenseName>bsd_2</licenseName>
-					<organizationName>Board of Regents of the University of
-Wisconsin-Madison</organizationName>
-				</configuration>
-			</plugin>
-			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-plugin-plugin</artifactId>
 				<configuration>
@@ -135,7 +164,7 @@ Wisconsin-Madison</organizationName>
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>loci.backup.github.GitHubBackup</mainClass>
+							<mainClass>${main-class}</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
