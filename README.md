@@ -89,7 +89,7 @@ Developers:
 Windows
 -------
 
-Coming soon! See the [Maven](#running-from-maven) and [executable jar](#as-an-executable-jar) sections for now.
+See the [Maven](#running-from-maven) and [executable jar](#as-an-executable-jar) sections for now.
 
 Linux
 -----
