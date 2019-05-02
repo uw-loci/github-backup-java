@@ -17,7 +17,7 @@
 
 	<name>GitHub Backup Maven Plugin</name>
 	<description>Maven plugin for backing up a GitHub repository.</description>
-	<url>https://github.com/hinerm/github-backup-maven-plugin</url>
+	<url>https://github.com/uw-loci/github-backup-java</url>
 	<inceptionYear>2013</inceptionYear>
 	<organization>
 		<name>UW-Madison LOCI</name>
@@ -65,14 +65,14 @@
 	</mailingLists>
 
 	<scm>
-		<connection>scm:git:git://github.com/loci/github-backup-loci</connection>
-		<developerConnection>scm:git:git@github.com:loci/github-backup-loci</developerConnection>
+		<connection>scm:git:git://github.com/uw-loci/github-backup-java</connection>
+		<developerConnection>scm:git:git@github.com:uw-loci/github-backup-java</developerConnection>
 		<tag>HEAD</tag>
-		<url>https://github.com/loci/github-backup-loci</url>
+		<url>https://github.com/uw-loci/github-backup-java</url>
 	</scm>
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/uw-loci/github-backup-loci/issues</url>
+		<url>https://github.com/uw-loci/github-backup-java/issues</url>
 	</issueManagement>
 	<ciManagement>
 		<system>Travis CI</system>
