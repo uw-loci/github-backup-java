@@ -1,3 +1,5 @@
+[![](https://travis-ci.org/uw-loci/github-backup-java.svg?branch=master)](https://travis-ci.org/uw-loci/github-backup-java)
+
 GitHub Backup Tool
 ==================
 
