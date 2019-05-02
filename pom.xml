@@ -75,8 +75,8 @@
 		<url>https://github.com/uw-loci/github-backup-loci/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Jenkins</system>
-		<url>https://jenkins.imagej.net/job/github-backup-java/</url>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/uw-loci/github-backup-java</url>
 	</ciManagement>
 
 	<properties>
