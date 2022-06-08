@@ -37,10 +37,11 @@ import org.apache.maven.plugins.annotations.Mojo;
 import org.apache.maven.plugins.annotations.Parameter;
 
 /**
- * Maven mojo for running {@link GitHubBackup} on git projects that are also <a
- * href="http://maven.apache.org/">maven-ized</a>.
+ * Maven mojo for running {@link GitHubBackup} on git projects that are also
+ * <a href="https://maven.apache.org/">maven-ized</a>.
  * <p>
  * Parameters:
+ * </p>
  * <ul>
  * <li>localDir - path to local git repository</li>
  * <li>login - GitHub user name for authentication</li>
@@ -51,7 +52,6 @@ import org.apache.maven.plugins.annotations.Parameter;
  * <li>clean - Boolean flag. Set "true" to force a complete backup (if last
  * backup was incremental)</li>
  * </ul>
- * </p>
  */
 @Mojo(name = "backup", aggregator = true)
 public class GitHubBackupMojo extends AbstractMojo {
