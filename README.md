@@ -1,4 +1,4 @@
-[![](https://travis-ci.org/uw-loci/github-backup-java.svg?branch=master)](https://travis-ci.org/uw-loci/github-backup-java)
+[![](https://github.com/uw-loci/github-backup-java/actions/workflows/build-main.yml/badge.svg)](https://github.com/uw-loci/github-backup-java/actions/workflows/build-main.yml)
 
 GitHub Backup Tool
 ==================
